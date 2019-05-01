@@ -1,0 +1,19 @@
+.show {
+    margin: 8px;
+}
+#new-buttons{
+    margin: 8px;
+}
+
+img {
+    margin: 5px;
+    max-width: 100%;
+}
+
+.gif-class {
+    float: left;
+    max-width: 200px;
+    padding: 3px;
+    margin: 4px;
+    border: 3px solid lightskyblue;
+}
