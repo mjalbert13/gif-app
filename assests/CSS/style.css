@@ -1,3 +1,23 @@
+.container {
+    width: 1000px;
+    height: 100%;
+    background: lightgray;
+    border: 3px solid khaki;
+    margin-top: 50px;
+}
+
+body {
+    background-image:url(../images/footer_lodyas.png);
+}
+#header {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+h3{
+    text-align: center;
+}
 .show {
     margin: 8px;
 }
@@ -5,6 +25,9 @@
     margin: 8px;
 }
 
+#clear {
+    margin-top: 10px;
+}
 img {
     margin: 5px;
     max-width: 100%;
@@ -13,7 +36,11 @@ img {
 .gif-class {
     float: left;
     max-width: 200px;
+    height: 200px;
     padding: 3px;
     margin: 4px;
-    border: 3px solid lightskyblue;
+}
+
+.clear {
+    clear: both;
 }

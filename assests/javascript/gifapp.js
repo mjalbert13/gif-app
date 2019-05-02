@@ -68,6 +68,10 @@ $("#clear").on("click", function(){
     $("#gif-holder").empty();
 });
 
+$("#add-show").on("click", function(){
+    $("#user-input").text("");
+})
+
 //$(document).on("click", ".show", showGif);
 
 renderButtons();
