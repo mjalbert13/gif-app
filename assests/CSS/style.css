@@ -1,5 +1,5 @@
 .container {
-    width: 1000px;
+    width: 1200px;
     height: 100%;
     background: lightgray;
     border: 3px solid khaki;
@@ -43,4 +43,45 @@ img {
 
 .clear {
     clear: both;
+}
+
+@media screen and (max-width: 980px){
+    .container{
+        width: 75%;
+    }
+
+           
+}
+
+@media screen and (max-width: 760px){
+
+    .container{
+        width: 85%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+
+    .container{
+        width: 100%;
+        background-image: url(../images/footer_lodyas.png);
+    }
+    .show {
+        display: block;
+        width: 100%;
+    }
+
+    #header {
+        color: khaki;
+    }
+
+    h3 {
+        color: khaki;
+    }
+
+    label {
+        color: khaki;
+    }
 }

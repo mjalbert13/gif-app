@@ -1,5 +1,4 @@
 var tvShows = ["Brooklyn 99", "The Office", "Arrested Devlopment","Parks and Recreation"];
-var buttonContainer = document.getElementById("new-buttons");
 
 
 $(document).ready(function(){
@@ -13,7 +12,7 @@ function renderButtons(){
         newButton.attr("data-title",tvShows[i]);
         newButton.text(tvShows[i]);
         $("#new-buttons").append(newButton);
-        $("#user-input").text("");
+        $("#user-input").val("");
     }
 }
 
@@ -31,7 +30,7 @@ $("#add-show").on("click", function(event){
 
 //When you click on the button gifs will appear
 $(document).on("click",".show", function(){
-    //alert("you clicked a button")
+    
     var text= $(this).text();
     console.log(text);
  
@@ -68,11 +67,6 @@ $("#clear").on("click", function(){
     $("#gif-holder").empty();
 });
 
-$("#add-show").on("click", function(){
-    $("#user-input").text("");
-})
-
-//$(document).on("click", ".show", showGif);
 
 renderButtons();
 });
