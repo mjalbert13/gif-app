@@ -1,7 +1,7 @@
 # gif-app
 An app that generates gifs using the Giffy api
 
-##Installation
+## Installation
 - Git Clone to download
 - Create a Giffy API account and key
 
